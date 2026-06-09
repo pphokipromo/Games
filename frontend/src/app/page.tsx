@@ -59,13 +59,19 @@ export default function HomePage() {
     <main className="min-h-screen bg-animated flex flex-col items-center justify-center px-4 py-8">
       {/* Header */}
       <div className="text-center mb-10 animate-fade-in">
-        <div className="text-6xl mb-4">🕵️</div>
+        <div className="mb-4">
+  <img 
+    src="https://imgstore.org/a/6kjxbsr4w34m" 
+    alt="Logo" 
+    className="w-24 h-24 rounded-full mx-auto object-cover border-4 border-accent shadow-lg"
+  />
+</div>
         <h1 className="text-4xl sm:text-5xl font-extrabold bg-gradient-to-r from-accent-light via-neon to-accent bg-clip-text text-transparent">
           Secret Mission
         </h1>
-        <p className="text-xl font-bold text-accent-light mt-1">Online</p>
+        <p className="text-xl font-bold text-accent-light mt-1">By BBB</p>
         <p className="text-text-secondary mt-3 text-sm max-w-xs mx-auto">
-          Game multiplayer real-time. Selesaikan misi rahasiamu tanpa ketahuan pemain lain.
+          Game Online. Selesaikan Misi Rahasia Tanpa Ketahuan Orang Lain
         </p>
       </div>
 
@@ -73,7 +79,7 @@ export default function HomePage() {
         {mode === "home" && (
           <div className="space-y-3">
             <div className="card mb-4">
-              <label className="block text-xs text-muted mb-2 font-medium uppercase tracking-wider">Username kamu</label>
+              <label className="block text-xs text-muted mb-2 font-medium uppercase tracking-wider">Tulis Nama</label>
               <input
                 className="input-field"
                 placeholder="Masukkan nama..."
@@ -102,7 +108,7 @@ export default function HomePage() {
             <div className="text-center text-muted text-xs mt-6 space-y-1">
               <p>👥 3–10 pemain per room</p>
               <p>🎯 5 ronde dengan misi rahasia</p>
-              <p>⚡ Real-time via Socket.IO</p>
+              <p>73K</p>
             </div>
           </div>
         )}
